@@ -1,0 +1,14 @@
+{
+    "copy": {
+        "sourceKey": "092-A2406-82612.pdf",
+        "sourceBucket": "floret-platform-regression-deductions"
+    },
+    "deductionFile": {
+        "filename": "092-A2406-82612.pdf",
+        "organization": {
+            "id": "org_KkZ4YiLzCSldmTbg"
+        },
+        "hash": "d9a7fe37f684bbb4bca81cd0887d6435634111dbae4f3978725ba070f0f8b2b4",
+        "createdAt": "2025-01-10 11:53:29.365947"
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "document": {
+        "distributor": {
+            "type": "entity::Distributor",
+            "text": "KeHE",
+            "confidence": 65.24234771728516,
+            "value": {
+                "id": "63655a987886f16270bf2cb4",
+                "display": "KeHE"
+            }
+        },
+        "invoiceNumber": {
+            "value": "UN19744719",
+            "confidence": 99.7120132446289,
+            "text": "UN19744719",
+            "type": "string"
+        },
+        "metadata": {
+            "invoiceCode": {
+                "distributor": {
+                    "id": "63655a987886f16270bf2cb4",
+                    "display": "KeHE"
+                },
+                "codes": [
+                    {
+                        "code": "UN",
+                        "orientation": "prefix"
+                    }
+                ]
+            }
+        },
+        "dc": {
+            "text": "19",
+            "confidence": 99.88121795654297,
+            "value": {
+                "display": "KeHE DC 19 - Dallas",
+                "id": "63655ab250cc826baac1392f"
+            },
+            "type": "entity::DC"
+        },
+        "type": {
+            "text": "Scan",
+            "confidence": 99.96014404296875,
+            "value": "Scan",
+            "type": "string"
+        },
+        "invoiceDate": {
+            "confidence": 100.0,
+            "value": "2026-01-06 00:00:00",
+            "text": "1/6/2026",
+            "type": "date"
+        },
+        "invoiceTotal": {
+            "text": "$1,513.85",
+            "confidence": 99.8828125,
+            "value": 151385.0,
+            "type": "currency"
+        },
+        "invoiceFee": {
+            "text": "$112.14",
+            "value": 11214.0,
+            "confidence": 99.990234375,
+            "type": "currency"
+        },
+        "retailer": {
+            "text": "None",
+            "confidence": 100,
+            "type": "entity::Retailer",
+            "value": {
+                "id": "63ed448323c3d28d74bdd213",
+                "display": "None"
+            }
+        }
+    }
+}

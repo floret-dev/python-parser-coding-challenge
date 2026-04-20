@@ -1,0 +1,14 @@
+{
+    "copy": {
+        "sourceKey": "UN19744719.pdf",
+        "sourceBucket": "floret-platform-regression-deductions"
+    },
+    "deductionFile": {
+        "filename": "UN19744719.pdf",
+        "organization": {
+            "id": "org_KkZ4YiLzCSldmTbg"
+        },
+        "hash": "ab7362af5915256d41c81fff7bb9259f631d1e8b204af159a389bf23b3341d14",
+        "createdAt": "2026-01-16 16:15:41.398769"
+    }
+}
