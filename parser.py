@@ -62,7 +62,9 @@ if __name__ == '__main__':
 
     argument_parser.add_argument('testfile_directory', help='The directory containing the test file to process')
     arguments = argument_parser.parse_args()
-    results = invoke(arguments.testfile_directory)
-    output_path = f'test-files/{arguments.testfile_directory}/parser-output.json'
-    with open(output_path, 'w') as output:
-        output.write(json.dumps(results, indent=4))
+    directories = arguments.testfile_directory.split(',')
+    for directory in directories:
+        results = invoke(directory)
+        output_path = f'test-files/{directory}/parser-output.json'
+        with open(output_path, 'w') as output:
+            output.write(json.dumps(results, indent=4))
