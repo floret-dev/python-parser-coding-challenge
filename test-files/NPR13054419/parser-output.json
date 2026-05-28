@@ -1,0 +1,46 @@
+{
+    "document": {
+        "distributor": {
+            "type": "entity::Distributor",
+            "text": "KeHE",
+            "confidence": 76.8016586303711,
+            "value": "KeHE"
+        },
+        "invoiceNumber": {
+            "value": "NPR13054419",
+            "confidence": 99.363037109375,
+            "text": "NPR13054419",
+            "type": "string"
+        },
+        "type": {
+            "text": "Scans",
+            "confidence": 100.0,
+            "value": "Scans",
+            "type": "string"
+        },
+        "invoiceDate": {
+            "confidence": 100.0,
+            "value": "2025-07-07 00:00:00",
+            "text": "7/7/2025",
+            "type": "date"
+        },
+        "invoiceTotal": {
+            "text": "$53.40",
+            "confidence": 99.970703125,
+            "value": 5340.0,
+            "type": "currency"
+        },
+        "invoiceFee": {
+            "text": "$35.00",
+            "value": 3500.0,
+            "confidence": 99.990234375,
+            "type": "currency"
+        },
+        "retailer": {
+            "text": "Pruetts Scans",
+            "confidence": 90,
+            "type": "entity::Retailer",
+            "value": "Pruett's"
+        }
+    }
+}
