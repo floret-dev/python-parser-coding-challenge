@@ -28,7 +28,8 @@ def process_analysis(textract_output):
     trp_doc = parse_trp_doc(textract_output) # Don't worry about this part
     document_data = {}
 
-    for page, page_number in trp_doc.pages:
+    page_number = 1
+    for page in trp_doc.pages:
         document_data['distributor'] = distributor.parse(page, page_number)
         document_data['invoiceNumber'] = number.parse(page, page_number)
         document_data['invoiceDate'] = date.parse(page, page_number)
