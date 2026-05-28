@@ -1,6 +1,7 @@
 from trp import Document
 from trp.trp2 import TDocumentSchema, TDocument
 from handlers import date, distributor, fee, number, retailer, total, type
+from common import store
 import argparse
 import json
 import sys
@@ -64,6 +65,7 @@ if __name__ == '__main__':
     arguments = argument_parser.parse_args()
     directories = arguments.testfile_directory.split(',')
     for directory in directories:
+        store.set_object('current_directory', directory)
         results = invoke(directory)
         output_path = f'test-files/{directory}/parser-output.json'
         with open(output_path, 'w') as output:

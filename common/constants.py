@@ -6,7 +6,7 @@ class StoreKey:
 
 @dataclass(frozen=True)
 class Distributor:
-    unfi = 'UNFI',
+    unfi = 'UNFI'
     kehe = 'KeHE'
 
 store_key = StoreKey()
